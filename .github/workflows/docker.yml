@@ -19,7 +19,7 @@ jobs:
 
       - name: 🌐 Clone Original Linklog Repo
         run: |
-          git clone --depth=1https://github.com/Abdenasser/neohtop original
+          git clone --depth=1 https://github.com/Abdenasser/neohtop original
           cp -r original/* ./
           cp -r original/.* ./ || true  # copy hidden files like .gitignore if needed
 
